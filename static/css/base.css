@@ -1,0 +1,85 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+
+/* TABLE CSS */
+table tbody tr th {
+  font-family: 'Helvetica Neue', Helvetica;
+  text-align: center;
+  font-size: .9em;
+  color: #fff;
+  background-color: #34495E;
+  border-color: #777;
+}
+table tbody tr td {
+ text-align: center; 
+}
+table tbody tr td:last-child {
+  text-align: left;
+}
+table tbody tr:nth-child(odd) {
+  background-color: #C9DFF0;
+}
+
+
+#tvcontent { 
+  padding-top: 30px;
+}
+
+.noir {
+  background-color:#222;
+  color: #999;
+}
+
+.tabledate {
+  min-width: 150px;
+}
+
+.red {
+  background-color: #d8340a;
+  color: #FFF;
+  font-weight: 400;
+  width: 60px;
+}
+.green {
+  background-color: #398929;
+  color: #FFF;
+}
+.yellow {
+  background-color: #dbd03f;
+  color: #000;
+}
