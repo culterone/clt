@@ -1,1 +1,1 @@
-This is my test repository from the Git course
+Trying to make work DataTables server-side processing with data from Mysql table.
