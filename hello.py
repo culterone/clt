@@ -4,8 +4,8 @@ from serverside.serverside_table import ServerSideTable
 from serverside import table_schemas
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'secretkey57'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://monty:kc532*LC@10.99.99.11/test1'
+app.config['SECRET_KEY'] = 'secretkey'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://admin:abcdef@10.10.99.11/test1'
 db = SQLAlchemy(app)
 
 class table2(db.Model):
